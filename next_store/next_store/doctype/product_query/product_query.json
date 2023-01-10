@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "autoname": "PQ.####",
+ "creation": "2019-03-20 00:49:07.756921",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "section_break_2",
+  "item_name",
+  "discription",
+  "uom",
+  "section_break_5",
+  "sales_price",
+  "wholesale_price",
+  "valuation_rate",
+  "last_purchase_price",
+  "column_break_10",
+  "sn_stock",
+  "ah_stock",
+  "mn_stock",
+  "sz_stock",
+  "sh_stock",
+  "total_stock",
+  "stock_in_transit"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "discription",
+   "fieldtype": "Small Text",
+   "label": "Discription",
+   "read_only": 1
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "label": "UOM",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sales_price",
+   "fieldtype": "Currency",
+   "label": "Sales Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "wholesale_price",
+   "fieldtype": "Currency",
+   "label": "Wholesale Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "valuation_rate",
+   "fieldtype": "Currency",
+   "label": "Valuation Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_purchase_price",
+   "fieldtype": "Currency",
+   "label": "Last Purchase Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sn_stock",
+   "fieldtype": "Float",
+   "label": "SN Stock",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ah_stock",
+   "fieldtype": "Float",
+   "label": "AH Stock",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mn_stock",
+   "fieldtype": "Float",
+   "label": "MN Stock",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sz_stock",
+   "fieldtype": "Float",
+   "label": "SZ Stock",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sh_stock",
+   "fieldtype": "Float",
+   "label": "SH Stock",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_stock",
+   "fieldtype": "Float",
+   "label": "Total Stock",
+   "read_only": 1
+  },
+  {
+   "fieldname": "stock_in_transit",
+   "fieldtype": "Float",
+   "label": "Stock in Transit",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-03 12:04:15.888944",
+ "modified_by": "Administrator",
+ "module": "Next Store",
+ "name": "Product Query",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
